@@ -1,0 +1,21 @@
+body{
+    background: #1d326d;
+}
+h1{
+    color: #adc2dd;
+}
+h2{
+    color: thistle;
+}
+p{
+    color: white;
+}
+.nav{
+    background: #b3c2eb;
+}
+.article-header{
+    color: #929db8;
+}
+.footer{
+    background: #b3c2eb;
+}
