@@ -1,21 +1,111 @@
-body{
-    background: #1d326d;
+body {
+  background: #1d326d;
 }
-h1{
-    color: #adc2dd;
+
+.article {
+  padding: 1vw 4vw;
+  border: solid 1px #adc2dd;
+  margin-bottom: 1vw;
 }
-h2{
-    color: thistle;
+
+.article__title {
+  color: #b3c2eb;
 }
-p{
-    color: white;
+
+.article__paragraph {
+  color: #fff;
 }
-.nav{
-    background: #b3c2eb;
+
+.footer {
+  background: #b3c2eb;
+  border-radius: 4px;
 }
-.article-header{
-    color: #929db8;
+
+.footer__button {
+  color: #000;
 }
-.footer{
-    background: #b3c2eb;
+
+.footer__heading {
+  display: inline-block;
+  color: #000;
+  margin: 0;
+}
+
+.header {
+  padding: 2vh 10vh;
+  background: #fff;
+  max-width: 64vw;
+  height: 32vw;
+  margin: 8px auto 0;
+  position: relative;
+  border-radius: 6px;
+  overflow: auto;
+}
+
+.header__article {
+  position: absolute;
+  top: 12vw;
+  width: 50%;
+  color: #000;
+}
+
+.header__study-article--js {
+  /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+  color: rgb(199, 28, 28);
+}
+
+.header__image {
+  position: absolute;
+}
+
+.header__image--laptop {
+  width: 50vw;
+  left: 32vw;
+  top: 3vw;
+}
+
+.laptop-header {
+  overflow: hidden;
+}
+
+.header__image--real {
+  top: 4vw;
+  right: 8vw;
+  height: 25vw;
+}
+
+.header__title {
+  color: #adc2dd;
+  position: absolute;
+  top: 4vw;
+  left: 8vw;
+}
+
+.navigation {
+  background: #b3c2eb;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.navigation__link {
+  color: #000;
+  margin-right: 20px;
+}
+
+.navigation__link--sport {
+  background: #fff;
+  padding: 16px 8px;
+}
+
+.section {
+  padding: 2vw 4vw;
+}
+
+.section__heading {
+  color: #cdbcd4;
+}
+
+.section__button{
+  /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+  color: #fff;
 }
