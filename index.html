@@ -1,64 +1,105 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bawmy się!</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-    <header id="top" class="nav">
-        <nav>
-            <a href="index.html">WTR</a>
-            <a href="wtf.html">Frontend</a>
-        </nav>
+  <body>
+    <header class="navigation" id="top">
+      <nav>
+        <a class="navigation__link navigation__link--sport" href="index.html"
+          >WTReal</a
+        >
+        <a class="navigation__link navigation__link--study" href="wtf.html"
+          >WTFrontend</a
+        >
+      </nav>
     </header>
 
     <main>
-        <header>
-            <h1>WTR: Co ten Real?!</h1>
-            <img src="real.png" alt="logo realu">
-        </header>
+      <header class="header">
+        <h1 class="header__title">WTR: Co ten Real?!</h1>
+        <p class="header__article header__real-article--js"></p>
+        <img
+          class="header__image header__image--real"
+          src="real.png"
+          alt="logo realu"
+        />
+      </header>
 
-        <section>
-            <h2>Bawmy się!</h2>
+      <section class="section">
+        <h2 class="section__heading">Bawmy się!</h2>
 
-            <article>
-                <h3 class="article-header">Świetna zapowiedź</h3>
-                <p>Czy może być coś lepszego niż uspokojenie swojego fana tuż przed El Clásico? Otóż nie mam pojęcia,
-                    ponieważ Real postanawia pokazać całęmu światu, że podtrzymuje wybitną formę, dostając bencki od
-                    zdziesiętkowanego Szachtaru w Lidze Mistrzów 2:3. Nie mogę się doczekać soboty i godziny 16:00..</p>
-            </article>
+        <article class="article">
+          <h3 class="article__title">Miłych niespodzianek ciąg dalszy</h3>
+          <p class="article__paragraph">
+            Po pozytywnych wynikach w poprzedniej kolejce, doszła dość smutna
+            informacja dla kibica Los Blancos. Bartomeu podał się z kolegami do
+            dymisji. Zaskoczyło to chyba nawet piłkarzy Blaugrany i nie mogli
+            wyjść z wrażenia nawet podczas swojego spotkania z Alavés, który
+            zremisowali 1:1. Real natomiast po pewnej wygranej 4:1 z Huescą,
+            powiększa przewagę punktową do 8 punktów nad dwunastą w tabeli
+            Barceloną. Plasują się na drugim miejscu za Realem Sociedad.
+          </p>
+        </article>
 
-            <article>
-                <h3 class="article-header">Wyrównana walka o mistrzostwo.</h3>
-                <p>Już od samego początku sezonu Primera Division nas rozpieszcza. Po zaledwie 5 kolejkach pretendenci
-                    do
-                    mistrzostwa (czyt. real i barcelona) stracili już 4 punkty, co tylko utwierdza nas w przekonaniu, że
-                    walka o koronę ligi hiszpańskiej będzie trwała, podobnie jak w poprzednim sezonie, do ostatniej
-                    kolejki.
-                </p>
-            </article>
+        <article class="article">
+          <h3 class="article__title">Pewnego razu w Barcelonie</h3>
+          <p class="article__paragraph">
+            Liga Mistrzów? A po co to komu? Któżby się przejmował grą w Europie
+            skoro wygrywa się (odziwo) mecz z Barceloną. Już spieszę z
+            odpowiedzią. Otóż ja. Nie powiem, że nie zostałem mile zaskoczony
+            wynikiem spotkania. Co prawda trafiłem wynik, bo obstawiałem 3:1..
+            tyle że w drugą stronę. Dobry mecz Realu. Po prostu, byli lepsi. W
+            Madrycie odziwo +3 stopnie. Mam jednak mieszane odczucia, czy
+            dodatnia temperatura utrzyma się na długo.
+          </p>
+        </article>
 
-            <article>
-                <h3 class="article-header">Zabawę czas zacząć</h3>
-                <p>Drugie podejście do kursu oficjalnie się zaczęło. Tym razem zamiast pisać o sobie pobawię się w
-                    pisanie o
-                    jakże pięknym klubie z ligi hiszpańskiej. Zobaczymy czy tym razem uda mi się dotrwać do końca kursu
-                    i
-                    pójść dalej.. Mam taką nadzieję a więc, Bawmy się!</p>
-            </article>
-        </section>
+        <article class="article">
+          <h3 class="article__title">Świetna zapowiedź</h3>
+          <p class="article__paragraph">
+            Czy może być coś lepszego niż uspokojenie swojego fana tuż przed El
+            Clásico? Otóż nie mam pojęcia, ponieważ Real postanawia pokazać
+            całęmu światu, że podtrzymuje wybitną formę, dostając bencki od
+            zdziesiętkowanego Szachtaru w Lidze Mistrzów 2:3. Nie mogę się
+            doczekać soboty i godziny 16:00..
+          </p>
+        </article>
 
-        <footer class="footer">
-            Zainspirowany wynikami spotkań Realu Madryt w sezonie 20/21.
-            <a href="#top">Wróć na górę strony.</a>
-        </footer>
+        <article class="article">
+          <h3 class="article__title">Wyrównana walka o mistrzostwo.</h3>
+          <p class="article__paragraph">
+            Już od samego początku sezonu Primera Division nas rozpieszcza. Po
+            zaledwie 5 kolejkach pretendenci do mistrzostwa (czyt. real i
+            barcelona) stracili już 4 punkty, co tylko utwierdza nas w
+            przekonaniu, że walka o koronę ligi hiszpańskiej będzie trwała,
+            podobnie jak w poprzednim sezonie, do ostatniej kolejki.
+          </p>
+        </article>
+
+        <article class="article">
+          <h3 class="article__title">Zabawę czas zacząć</h3>
+          <p class="article__paragraph">
+            Drugie podejście do kursu oficjalnie się zaczęło. Tym razem zamiast
+            pisać o sobie pobawię się w pisanie o jakże pięknym klubie z ligi
+            hiszpańskiej. Zobaczymy czy tym razem uda mi się dotrwać do końca
+            kursu i pójść dalej.. Mam taką nadzieję a więc, Bawmy się!
+          </p>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <p class="footer__heading">
+          Zainspirowany wynikami spotkań Realu Madryt w sezonie 20/21.
+        </p>
+        <a class="footer__button" href="#top">Wróć na górę strony.</a>
+      </footer>
     </main>
 
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
