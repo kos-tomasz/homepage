@@ -14,9 +14,11 @@ greet(name, age);
 
 // FAT arrow function:
 const secondGreet = (name, age) => {
-  console.log(`Witam Cię na mojej biedackiej stronie. Jestem ${name}. Mam ${age} lat. I mam nadzieję, że w końcu posiądę tajemną wiedzę z dziedziny frontendu.`);
-}
-secondGreet('Zbysiu', 34);
+  console.log(
+    `Witam Cię na mojej biedackiej stronie. Jestem ${name}. Mam ${age} lat. I mam nadzieję, że w końcu posiądę tajemną wiedzę z dziedziny frontendu.`
+  );
+};
+secondGreet("Zbysiu", 34);
 
 const realHeading = document.querySelector(".header__real-article--js");
 realHeading.innerHTML = `Strona przedstawia niezobowiązujące, pisane w luźnym tonie nowinki o ekipie z Madrytu. </br> PS: ten tekst pisałem JS'em tylko dlatego, że miałem takie zadanie.`;
