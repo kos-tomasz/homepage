@@ -26,3 +26,11 @@ realHeading.innerHTML = `Strona przedstawia niezobowiązujące, pisane w luźnym
 // const studyHeading = document.querySelector(".header__study-article--js");
 // studyHeading.innerHTML = `Najpierw mówi, że to co się da robić za pomocą HTML'a robimy HTML'em, a teraz każe pisać <strong> ten </strong> tekst za pomocą JS'a..`;
 // Odkryłem, że musiałbym utworzyć i podpiąć drugi plik .js do podstrony, więc póki co przeżyję z jednym..
+// to samo z burger menu
+
+const hamburger = document.querySelector(".hamburger--js");
+
+hamburger.addEventListener("click", () => {
+  const nav = document.querySelector(".navigation--js");
+  nav.classList.toggle("navigation--open");
+});
