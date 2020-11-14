@@ -162,10 +162,6 @@ body {
     background-color: #fff;
   }
 
-  .footer {
-    font-size: 65%;
-  }
-
   .header {
     max-width: 80vw;
     height: 48vw;
@@ -194,13 +190,13 @@ body {
     top: 14vw;
     left: 32vw;
   }
+
+  .footer {
+    font-size: 65%;
+  }
 }
 
 @media screen and (min-width: 601px) {
-  .hamburger {
-    display: none;
-  }
-
   .navigation {
     display: flex;
     flex-direction: row;
@@ -219,5 +215,9 @@ body {
   .navigation__link--WTR-background {
     background-color: #fff;
     padding: 16px 10px;
+  }
+
+  .hamburger {
+    display: none;
   }
 }
