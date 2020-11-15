@@ -11,12 +11,12 @@ html {
 body {
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    103deg,
-    rgba(2, 0, 36, 1) 1%,
-    rgba(11, 18, 62, 1) 8%,
-    rgba(29, 50, 109, 1) 41%,
-    rgba(153, 152, 176, 1) 78%,
-    rgba(255, 254, 253, 0.9812967423297444) 99%
+    86deg,
+    rgba(2, 0, 36, 1) 2%,
+    rgba(11, 18, 62, 1) 15%,
+    rgba(29, 50, 109, 1) 61%,
+    rgba(153, 152, 176, 1) 86%,
+    rgba(255, 254, 253, 0) 99%
   );
 }
 
@@ -219,5 +219,11 @@ body {
 
   .hamburger {
     display: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
   }
 }
