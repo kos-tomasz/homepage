@@ -1,0 +1,24 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "Actually it's not a project. I use this repo for studying so I put my notes into the code too. One day my homepage of course will be done but now i'm still learning..",
+  "main": "main.js",
+  "scripts": {
+    "sass": "npx node-sass -w scss/style.scss style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kos-tomasz/homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kos-tomasz/homepage/issues"
+  },
+  "homepage": "https://github.com/kos-tomasz/homepage#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
